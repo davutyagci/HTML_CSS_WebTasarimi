@@ -1,0 +1,49 @@
+@font-face {
+    font-family:'amerika'; 
+    src:url(../fonts/amerika.ttf) format('truetype')}
+@font-face {
+    font-family:'latinia'; 
+    src:url(../fonts/latinia.ttf) format('truetype')}
+body {
+    background-image: url("../rsm/arkaplan.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bosluk {
+    margin-top: 46;
+}
+.nav {
+  font-family: "amerika";
+  font-size: 16;
+}
+.navbar-text, p {
+   font-family: "latinia";
+}
+h3, h4 {
+  font-family: "amerika";
+  color: darkred;  
+}
+.p {
+    font-size: 18;
+}
+h4 {
+    font-size: 21;
+}
+.ara{
+	width:100%;
+	height:9px;
+	background:url(../rsm/divider.png) repeat-x;
+	clear:both;
+}
+.ursm {
+    max-height: 250px;
+    border-radius: 100%;
+}
+.brsm {
+  border-radius: 10%;  
+}
+.crsm {
+  border-radius: 30%; 
+  max-height: 270;
+}
